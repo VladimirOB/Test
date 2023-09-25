@@ -5,7 +5,8 @@ namespace Test
 {
     internal class Program
     {
-		//test
+        public int count2 { get; set; }
+        //test
         static void Main(string[] args)
         {
             Program p = new Program();
