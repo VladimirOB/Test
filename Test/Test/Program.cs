@@ -12,6 +12,7 @@ namespace Test
             Program p = new Program();
             int cnt = 0;
             p.Encrypt("hello");
+            int new_27_09_23 = 0;
         }
         private void Encrypt(string text)
         {
