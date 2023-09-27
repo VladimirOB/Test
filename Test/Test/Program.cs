@@ -6,13 +6,14 @@ namespace Test
     internal class Program
     {
         public int count2 { get; set; }
+        public string currentElement { get; set; }
         //test
         static void Main(string[] args)
         {
             Program p = new Program();
             int cnt = 0;
             p.Encrypt("hello");
-            int new_27_09_23 = 0;
+            int new_count = 0;
         }
         private void Encrypt(string text)
         {
