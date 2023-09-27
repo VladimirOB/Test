@@ -9,7 +9,7 @@ namespace Test
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.Encrypt("hello");
+            p.Encrypt("hello"); // comment in main
         }
         private void Encrypt(string text)
         {
